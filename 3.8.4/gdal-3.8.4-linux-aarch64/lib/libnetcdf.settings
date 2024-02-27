@@ -1,0 +1,47 @@
+# NetCDF C Configuration Summary
+==============================
+
+# General
+-------
+NetCDF Version:		4.8.1
+Dispatch Version:       3
+Configured On:		Sun Feb 25 07:51:23 EST 2024
+Host System:		x86_64-Linux-3.10.0-1160.108.1.el7.x86_64
+Build Directory: 	/home/vcpkg/buildtrees/netcdf-c/arm64-linux-dynamic-gcc55-rel
+Install Prefix:         /home/vcpkg/packages/netcdf-c_arm64-linux-dynamic-gcc55
+
+# Compiling Options
+-----------------
+C Compiler:		/opt/gcc-linaro-5.5/bin/aarch64-linux-gnu-gcc
+CFLAGS:			-fPIC -fno-strict-aliasing -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O3 -DNDEBUG
+CPPFLAGS:		 
+LDFLAGS:		 
+AM_CFLAGS:		
+AM_CPPFLAGS:		
+AM_LDFLAGS:		
+Shared Library:		yes
+Static Library:		no
+Extra libraries:	-lm -lhdf5 -lhdf5_hl -lCURL::libcurl
+
+# Features
+--------
+NetCDF-2 API:		yes
+HDF4 Support:		no
+HDF5 Support:		yes
+NetCDF-4 API:		yes
+NC-4 Parallel Support:	no
+PnetCDF Support:	no
+DAP2 Support:		yes
+DAP4 Support:		yes
+Byte-Range Support:	no
+Diskless Support:	yes
+MMap Support:		yes
+JNA Support:		no
+CDF5 Support:		yes
+ERANGE Fill Support:	yes
+Relaxed Boundary Check:	yes
+SZIP Support:           yes
+SZIP Write Support:     yes
+Parallel Filters:       yes
+NCZarr Support:		yes
+Multi-Filter Support:	yes
